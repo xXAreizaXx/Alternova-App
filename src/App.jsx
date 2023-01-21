@@ -1,5 +1,5 @@
 // ReactJS
-import { useContext } from "react";
+import { useContext, useState } from "react";
 
 // Context
 import { ShoppingContext } from "context/ShoppingContext";
@@ -14,7 +14,10 @@ import ListOfProducts from "components/ListOfProducts";
 const App = () => {
     const { products, cart } = useContext(ShoppingContext);
 
+    const [order, setOrder] = useState(false);
+
     const handleCreateOrder = () => {
+        setOrder(true);
         console.log("Create Order [JSON]: ", {
             cart,
             total: cart.reduce((acc, product) => acc + product.total, 0),
@@ -24,7 +27,11 @@ const App = () => {
     return (
         <AppContainer>
             <ListOfProducts products={products} />
-            <CartOfProducts cart={cart} handleClick={handleCreateOrder} />
+            <CartOfProducts
+                cart={cart}
+                order={order}
+                handleClick={handleCreateOrder}
+            />
         </AppContainer>
     );
 };

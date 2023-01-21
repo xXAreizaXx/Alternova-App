@@ -35,6 +35,11 @@
     margin: 10px 0px;
 }
 
+.CartTitle {
+    margin: 30px 0px;
+    text-align: center;
+}
+
 span {
     font-size: 20px;
     font-weight: normal;

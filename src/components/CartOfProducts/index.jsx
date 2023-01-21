@@ -13,7 +13,7 @@ import InputSearch from "components/InputSearch";
 // Styles
 import "./styles.css";
 
-const CartOfProducts = ({ cart, handleClick }) => {
+const CartOfProducts = ({ cart, order, handleClick }) => {
     const [search, setSearch] = useState("");
 
     return (
@@ -64,6 +64,12 @@ const CartOfProducts = ({ cart, handleClick }) => {
                     Create Order
                 </Button>
             </div>
+            {order && (
+                <h1 className="CartTitle">
+                    🎉 The order was created correctly!, now look at the console
+                    🎉
+                </h1>
+            )}
         </div>
     );
 };
