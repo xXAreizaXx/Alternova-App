@@ -1,0 +1,30 @@
+.Header {
+    margin-bottom: 20px;
+}
+
+.Container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.WrapperLogo {
+    align-items: center;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+
+.WrapperCart {
+    align-items: center;
+    border-radius: 100%;
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}

@@ -1,13 +1,74 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("assets/fonts/Montserrat-Regular.ttf") format("truetype");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+    --primary-bg-color: #d9e6e4;
+    --secondary-bg-color: #00594c;
+    --text-color: #efefef;
+}
+
+html,
+body {
+    background-color: var(--primary-bg-color);
+    box-sizing: border-box;
+    font-family: "Montserrat-Regular", sans-serif;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-button:increment,
+body::-webkit-scrollbar-button {
+    display: none;
+}
+
+body::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #9b9b9b;
+    border-radius: 20px;
+    border: none;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+h4,
+h5,
+h6 {
+    color: var(--secondary-bg-color);
+}
+
+header {
+    align-items: center;
+    background-color: var(--secondary-bg-color);
+    border-radius: 0px 0px 8px 8px;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px 0;
 }

@@ -1,0 +1,24 @@
+.Products {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.ProductContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (max-width: 865px) {
+    .Products {
+        justify-content: center;
+        width: 100%;
+    }
+}

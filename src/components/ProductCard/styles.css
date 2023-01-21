@@ -1,0 +1,34 @@
+.Item {
+    border-radius: 8px;
+    border: 2px solid #bfbfbf;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 200px;
+}
+
+.ItemImage {
+    background-size: cover;
+    border-radius: 8px;
+    border: 1px solid #bfbfbf;
+}
+
+.ItemInfo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.ItemText {
+    font-weight: bold;
+}
+
+span {
+    font-weight: normal;
+}

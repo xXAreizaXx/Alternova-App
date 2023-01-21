@@ -1,0 +1,15 @@
+.Main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+@media screen and (max-width: 865px) {
+    .Main {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+}

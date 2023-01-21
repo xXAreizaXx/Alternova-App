@@ -1,0 +1,58 @@
+{
+    "products": [
+        {
+            "name": "iPhone 14 Pro Max",
+            "stock": 5,
+            "type": "technology",
+            "unit_price": 5000
+        },
+        {
+            "name": "Timon Racing Carrera",
+            "stock": 2,
+            "type": "technology",
+            "unit_price": 8000
+        },
+        {
+            "name": "Control joystick inalámbrico",
+            "stock": 1,
+            "type": "technology",
+            "unit_price": 1000
+        },
+        {
+            "name": "Bicicicleta Roadmaster",
+            "stock": 1,
+            "type": "sport",
+            "unit_price": 1800
+        },
+        {
+            "name": "Bicicleta Todo Terreno",
+            "stock": 0,
+            "type": "sport",
+            "unit_price": 200
+        },
+        {
+            "name": "Balon De Futbol",
+            "stock": 6,
+            "type": "sport",
+            "unit_price": 120
+        },
+        {
+            "name": "Ducha Electrica",
+            "stock": 8,
+            "type": "building",
+            "unit_price": 120
+        },
+        {
+            "name": "Gabinete De Baño",
+            "stock": 10,
+            "type": "building",
+            "unit_price": 650
+        },
+        {
+            "name": "Mueble Sanitario",
+            "stock": 2,
+            "type": "building",
+            "unit_price": 900
+        }
+    ]
+}

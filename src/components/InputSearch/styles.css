@@ -1,0 +1,29 @@
+.SearchContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.InputSearch {
+    font-family: "Montserrat-Regular", sans-serif;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+}
+
+.InputSearch:focus {
+    outline: none;
+}
+
+.SearchIcon {
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    margin: 0px 10px;
+}

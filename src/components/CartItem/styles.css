@@ -1,0 +1,33 @@
+.CartItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CartInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.CardInfoText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.CartImage {
+    background-size: cover;
+    border-radius: 8px;
+    border: 1px solid #bfbfbf;
+}
+
+@media screen and (max-width: 550px) {
+    .CartItem {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

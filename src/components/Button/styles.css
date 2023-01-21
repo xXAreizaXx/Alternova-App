@@ -1,0 +1,16 @@
+.Button {
+    background-color: #00594c;
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.Disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}

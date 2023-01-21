@@ -1,0 +1,76 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "iPhone 14 Pro Max",
+            "stock": 5,
+            "type": "technology",
+            "unit_price": 5000,
+            "url": "https://i.ibb.co/H4wGYtf/IPHONE-14-PRO-MAX.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Timon Racing Carrera",
+            "stock": 2,
+            "type": "technology",
+            "unit_price": 8000,
+            "url": "https://i.ibb.co/1mx4QKy/TIMON-RACING-CARRERA.webp"
+        },
+        {
+            "id": 3,
+            "name": "Control joystick inalámbrico",
+            "stock": 1,
+            "type": "technology",
+            "unit_price": 1000,
+            "url": "https://i.ibb.co/7KmwgSx/Control-joystick-inal-mbrico.webp"
+        },
+        {
+            "id": 4,
+            "name": "Bicicicleta Roadmaster",
+            "stock": 1,
+            "type": "sport",
+            "unit_price": 1800,
+            "url": "https://i.ibb.co/3C2MzW5/Bicicicleta-Roadmaster.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Bicicleta Todo Terreno",
+            "stock": 0,
+            "type": "sport",
+            "unit_price": 200,
+            "url": "https://i.ibb.co/pwdWbJ6/Bicicleta-Todo-Terreno.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Balon De Futbol",
+            "stock": 6,
+            "type": "sport",
+            "unit_price": 120,
+            "url": "https://i.ibb.co/y5cP5M6/Balon-De-Futbol.webp"
+        },
+        {
+            "id": 7,
+            "name": "Ducha Electrica",
+            "stock": 8,
+            "type": "building",
+            "unit_price": 120,
+            "url": "https://i.ibb.co/cQ8zRXx/Ducha-Electrica.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Gabinete De Baño",
+            "stock": 10,
+            "type": "building",
+            "unit_price": 650,
+            "url": "https://i.ibb.co/2yGwt5b/Gabinete-De-Ba-o.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Mueble Sanitario",
+            "stock": 2,
+            "type": "building",
+            "unit_price": 900,
+            "url": "https://i.ibb.co/18NvzBm/Mueble-Sanitario.jpg"
+        }
+    ]
+}
