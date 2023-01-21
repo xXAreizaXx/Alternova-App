@@ -37,7 +37,7 @@ const CartOfProducts = ({ cart, order, handleClick }) => {
                     )
                     .map((product, index) => (
                         <Fragment key={index}>
-                            <CartItem product={product} />
+                            <CartItem product={product} index={index} />
                             {index !== cart.length - 1 && (
                                 <div className="Separator" />
                             )}

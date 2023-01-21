@@ -6,8 +6,7 @@
             "@components/*": ["components/animations/*"],
             "@constants/*": ["constants/*"],
             "@containers/*": ["containers/*"],
-            "@context/*": ["context/*"],
-            "@hooks/*": ["hooks/*"]
+            "@context/*": ["context/*"]
         }
     }
 }

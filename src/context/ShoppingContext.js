@@ -66,7 +66,23 @@ const ShoppingProvider = ({ children }) => {
         }]);
     }
 
-    const handleRemoveToCart = (product) => {
+    const handleRemoveToCart = (product, index) => {
+        const newCart = cart.filter((item, i) => i !== index);
+
+        const newProducts = products.map((item) => {
+            if (item.id === product.id) {
+                //if (item.name === product.name) {
+                return {
+                    ...item,
+                    stock: item.stock + 1
+                }
+            }
+
+            return item;
+        });
+
+        setProducts(newProducts);
+        setCart(newCart);
     }
 
     return (
